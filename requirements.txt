@@ -1,2 +1,4 @@
 pyrogram
 requests>=2.25.1
+telethon
+Pillow
