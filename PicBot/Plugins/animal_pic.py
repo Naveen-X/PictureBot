@@ -1,5 +1,7 @@
 from pyrogram import Client, filters
 import requests
+import re
+from bs4 import BeautifulSoup
 
         
 @Client.on_message(filters.command(["panda"]))
