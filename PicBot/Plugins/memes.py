@@ -7,4 +7,4 @@ async def meme(bot, update):
     hmm_s = "https://some-random-api.ml/meme"
     r = requests.get(url=hmm_s).json()
     image_s = r["image"]
-    await bot.send_photo(message.chat.id, image_s)
+    await bot.send_photo(update.chat.id, image_s)
