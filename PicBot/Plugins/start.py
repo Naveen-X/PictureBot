@@ -7,7 +7,7 @@ async def start(bot, update):
     text=f"__Hello!__\nI'm Picturebot\nCheck /help to get available commands"
     mypic="https://telegra.ph//file/894df85d26b8b72f0745b.jpg"
     await bot.send_photo(
-            message.chat.id,
+            update.chat.id,
             mypic,
             text,
             reply_markup=InlineKeyboardMarkup(
