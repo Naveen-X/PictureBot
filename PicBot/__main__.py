@@ -9,7 +9,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 if __name__ == "__main__" :
     print("Starting Bot...")
-    plugins = dict(root="Picbot/plugins")
+    plugins = dict(root="PicBot/Plugins")
     app = pyrogram.Client(
         "PicBot",
         bot_token=Config.BOT_TOKEN,
