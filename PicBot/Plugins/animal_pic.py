@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 async def panda(bot, update):
     link = "https://some-random-api.ml/img/panda"
     r = requests.get(url=link).json()
-    image_s = r["image"]
+    image_s = r["link"]
     await bot.send_photo(image_s)
 
 
@@ -16,7 +16,7 @@ async def panda(bot, update):
 async def cat(bot, update):
     link = "https://some-random-api.ml/img/cat"
     r = requests.get(url=link).json()
-    image_s = r["image"]
+    image_s = r["link"]
     await bot.send_photo(image_s)
 
 
@@ -24,5 +24,5 @@ async def cat(bot, update):
 async def dog(bot, update):
     link = "https://some-random-api.ml/img/dog"
     r = requests.get(url=link).json()
-    image_s = r["image"]
+    image_s = r["link"]
     await bot.send_photo(image_s)
