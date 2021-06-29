@@ -3,9 +3,6 @@ A telegram bot used to generate pics from some API's
 ## API's used
 •[Some-random-api](https://some-random-api.ml)
 
-## Deploying to Heroku
-• Soon
-
 ## Deploying Locally 🏆
 ```
 # Firstly clone the repo
@@ -16,5 +13,9 @@ $ cd PictureBot
 $ pip3 install -r requirements.txt
 # Create a local.env with the given values
 # Start the bot and enjoy
-$ python3 -m PicBot
+$ python3 -m Picbot
 ```
+
+### Deploying To Heroku ⚙
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Naveen-xd/PictureBot)
