@@ -9,4 +9,4 @@ async def help_menu(bot, update):
      text += f"➤ /cat - sends a random cat image\n"
      text += f"➤ /panda - sends a random panda image\n"
      text += f"➤ /meme - sends a random meme"
-     await bot.send_message(text)
+     await bot.send_message(update.chat.id, text=text)
