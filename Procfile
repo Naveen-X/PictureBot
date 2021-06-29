@@ -1,1 +1,1 @@
-worker: python3 -m PicBot
+picbot: python3 -m PicBot
