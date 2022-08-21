@@ -11,6 +11,6 @@ async def start(bot, update):
             mypic,
             text,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Dev", url="t.me/Sniper_xd")]]
+                [[InlineKeyboardButton("Dev", url="t.me/Naveen_xd")]]
             ),
         )
