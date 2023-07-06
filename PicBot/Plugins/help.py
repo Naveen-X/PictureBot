@@ -8,5 +8,5 @@ async def help_menu(bot, update):
      text += f"➤ /dog - sends a random dog image\n"
      text += f"➤ /cat - sends a random cat image\n"
      text += f"➤ /panda - sends a random panda image\n"
-     text += f"➤ /meme - sends a random meme"
+     text += "➤ /meme - sends a random meme"
      await bot.send_message(update.chat.id, text=text)
